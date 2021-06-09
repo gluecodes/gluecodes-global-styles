@@ -6,6 +6,7 @@ This repo contains Global Styles to be used within [GlueCodes Studio](https://ww
 
 ## Table of contents
 - [Setup](#setup)
+  - [Preparing GlueCodes Studio](#preparing-glueCodes-studio)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Git flow](#git-flow)
@@ -18,6 +19,12 @@ This repo contains Global Styles to be used within [GlueCodes Studio](https://ww
 - [Subscribe](#subscribe)
 
 ## Setup
+
+### Preparing GlueCodes Studio
+
+- Go to [GlueCodes](https://www.glue.codes) website and navigate to GlueCodes Studio. Before you get access to the project manager you might be asked to login via GitHub or Google. Please note that the Studio is NOT asking for any permissions to your GitHub repositories or personal data.
+- In the project manager you can navigate to the tab [Demos](https://ide.glue.codes/?openedTab=demos) where you can find templates with pre-installed Widgets and the Global Style file with all classes.
+- Remember that you don't need to style every single class to submit your work.
 
 ### Prerequisites
 
@@ -58,6 +65,7 @@ A Global Styles are made out of the following files:
 
 Here is a few rules to follow when styling your components:
 
+- Choose clean and good looking design over fulfilling all the classes.
 - The `styles.css` should contain style declarations with class selectors.
 - Don't rely on external libraries, use pure CSS.
 - Use media queries and breakpoints recommended by [Bootstrap](https://getbootstrap.com/docs/4.0/layout/overview/).
